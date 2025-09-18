@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.4",
+    "gsap": "^3.13.0",
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^4.1.4"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "postcss style.css -o dist/output.css --watch",
+    "build": "postcss style.css -o dist/output.css"
+  }
+}
